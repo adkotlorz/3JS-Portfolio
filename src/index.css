@@ -115,59 +115,31 @@ body:has(.card[data-color="green"]:hover) {
 }
 
 .block-container .btn-back-red {
-  background: linear-gradient(
-    135deg,
-    #ff4b1f -20%,
-    #ff9068 120%
-  );
+  background: linear-gradient(135deg, #ff4b1f -20%, #ff9068 120%);
 }
 
 .block-container .btn-back-green {
-  background: linear-gradient(
-    135deg,
-    #adfda2 -20%,
-    #11d3f3 120%
-  );
+  background: linear-gradient(135deg, #adfda2 -20%, #11d3f3 120%);
 }
 
 .block-container .btn-back-yellow {
-  background: linear-gradient(
-    135deg,
-    #f7971e -20%,
-    #ffd200 120%
-  );
+  background: linear-gradient(135deg, #f7971e -20%, #ffd200 120%);
 }
 
 .block-container .btn-back-blue {
-  background: linear-gradient(
-    135deg,
-    #0061ff -20%,
-    #60efff 120%
-  );
+  background: linear-gradient(135deg, #0061ff -20%, #60efff 120%);
 }
 
 .block-container .btn-back-orange {
-  background: linear-gradient(
-    135deg,
-    #ff0f7b -20%,
-    #f89b29 120%
-  );
+  background: linear-gradient(135deg, #ff0f7b -20%, #f89b29 120%);
 }
 
 .block-container .btn-back-pink {
-  background: linear-gradient(
-    135deg,
-    #e81cff -20%,
-    #40c9ff 120%
-  );
+  background: linear-gradient(135deg, #e81cff -20%, #40c9ff 120%);
 }
 
 .block-container .btn-back-black {
-  background: linear-gradient(
-    135deg,
-    #0a1647 -20%,
-    #e4e7e4 120%
-  );
+  background: linear-gradient(135deg, #0a1647 -20%, #e4e7e4 120%);
 }
 
 .block-container .btn-front {
@@ -186,13 +158,11 @@ body:has(.card[data-color="green"]:hover) {
 }
 
 .block-container:hover > .btn-back {
-  transform: translateZ(20px) rotateZ(15deg)
-    rotateX(-20deg) rotateY(-20deg);
+  transform: translateZ(20px) rotateZ(15deg) rotateX(-20deg) rotateY(-20deg);
 }
 
 .block-container:hover > .btn-front {
-  transform: translateZ(80px) translateY(-5px)
-    rotateX(15deg) rotateY(15deg);
+  transform: translateZ(80px) translateY(-5px) rotateX(15deg) rotateY(15deg);
 }
 
 /* Neo Brutalism */
@@ -201,15 +171,13 @@ body:has(.card[data-color="green"]:hover) {
   position: relative;
   border-radius: 10px;
   border: #2b77e7;
-  box-shadow: 0.6vmin 0.6vmin #336cc1,
-    1vmin 1vmin #0092db, 1vmin 1vmin #0092db,
+  box-shadow: 0.6vmin 0.6vmin #336cc1, 1vmin 1vmin #0092db, 1vmin 1vmin #0092db,
     0.65vmin 1vmin #0092db, 1vmin 0.65vmin #0092db;
 }
 
 .neo-brutalism-white {
   background: #fff;
   border: #fff;
-  box-shadow: 0.6vmin 0.6vmin #fff,
-    1vmin 1vmin #d2e4ff, 1vmin 1vmin #d2e4ff,
+  box-shadow: 0.6vmin 0.6vmin #fff, 1vmin 1vmin #d2e4ff, 1vmin 1vmin #d2e4ff,
     0.65vmin 1vmin #d2e4ff, 1vmin 0.65vmin #d2e4ff;
 }
