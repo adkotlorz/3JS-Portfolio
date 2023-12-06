@@ -31,7 +31,7 @@ const Projects = () => {
                 <img
                   src={project.iconUrl}
                   alt="Project Icon"
-                  className="h-1/2 h-1/2 object-contain"
+                  className="h-1/2 object-contain"
                 />
               </div>
             </div>
